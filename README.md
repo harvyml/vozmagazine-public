@@ -14,15 +14,15 @@ SESSION_SECRET=secretStringFOREncryption
 SENDGRID_API_KEY=YOURSECRETSENGRIDAPIKEY
 ~~~
 
-### install npm dependencies
+#### install npm dependencies
 
 Just run ```npm install``` 
 
-### start the server
+#### start the server
 
 Run ```npm start``` this will start a development server on localhost:3000
 
-### now you should structure your mongodb database this way
+#### now you should structure your mongodb database this way
 
 ##### Posts db structure
 ![DB posts structure](./build/public/assets/db-structure-posts.png)
