@@ -1,0 +1,70 @@
+{
+  "name": "vozmagazine",
+  "version": "1.0.0",
+  "description": "Somos la voz de quienes no la tienen",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "webpack": "node_modules/.bin/webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heml12346/vozmagazine.git"
+  },
+  "keywords": [
+    "Periodismo",
+    "Voz",
+    "Magazine",
+    "Revista",
+    "Periodico",
+    "Diario"
+  ],
+  "author": "Harvy Esteban Mosquera Leyton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heml12346/vozmagazine/issues"
+  },
+  "dependencies": {
+    "@uiw/react-markdown-editor": "^1.4.3",
+    "antd": "^4.4.2",
+    "axios": "^0.19.2",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.5.0",
+    "create-react-app": "^3.4.1",
+    "crypto": "^1.0.1",
+    "css-loader": "^3.6.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-force-https": "^1.0.0",
+    "express-session": "^1.17.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.9.21",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "pulse-editor": "^1.1.0",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.2.2",
+    "react-dom": "^16.13.1",
+    "react-flexbox-grid": "^2.1.2",
+    "react-remarkable": "^1.1.3",
+    "sendgrid": "^5.2.3",
+    "style-loader": "^1.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/plugin-transform-runtime": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "cross-env": "^7.0.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "homepage": "https://github.com/heml12346/vozmagazine#readme"
+}

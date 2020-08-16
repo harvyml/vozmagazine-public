@@ -1,0 +1,10 @@
+User-agent: Googlebot
+Disallow: /admin
+
+User-agent: bingbot
+Disallow: /admin
+
+User-agent: *
+Disallow: /admin
+
+sitemap: https://vozmagazine.com/sitemap.txt

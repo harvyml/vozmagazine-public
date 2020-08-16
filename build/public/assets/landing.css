@@ -1,0 +1,48 @@
+.banner{
+    width: 100%;
+    height: 100%;
+}
+.row{
+    margin: 0 0;
+}
+.info{
+    width: 100%;
+}
+/*Carousel atyles*/
+.carousel{
+    width: 100%;
+}
+.carousel-caption{
+    top: 200px;
+    margin: auto;
+    transition: all 0.2s ease;
+}
+.carousel .w-100{
+    height: -webkit-fill-available;
+}.layer{
+    background: rgba(0,0,0,0.8);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+.container-customed{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.img-container, .info .description{
+    padding: 20px;
+    box-sizing: border-box;
+}
+.description-container{
+    align-self: center;
+}
+.img-container img{
+    width: 100%;
+}
+
+.us{
+    width: 80%;
+}
